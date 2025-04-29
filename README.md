@@ -19,6 +19,76 @@ more. All operations are coded from scratch!
 * Levels Adjust: Adjust an image's blacks, whites, and mids to generate a level-adjusted image.
 * Split preview: Generate a preview image by applying a transformation or filter on a percentage of the image.
 
+### **Image Transformation Examples**
+
+Here are some sample transformations you can achieve with PixelCraft:
+
+<table>
+  <thead>
+    <tr>
+      <th>Original Image</th>
+      <th>Transformation</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="13" align="center">
+        <img src="res/dog.jpg" width="250"/>
+      </td>
+      <td><b>Horizontal Flip</b></td>
+      <td><img src="res/dog-horizontal.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Vertical Flip</b></td>
+      <td><img src="res/dog-vertical.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Horizontal + Vertical Flip</b></td>
+      <td><img src="res/dog-horizontal-vertical.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Brighten</b></td>
+      <td><img src="res/dog-brighten.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Dim</b></td>
+      <td><img src="res/dog-dim.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Blur Filter</b></td>
+      <td><img src="res/dog-blur.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Sharpen Filter</b></td>
+      <td><img src="res/dog-sharpen.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Sepia Filter</b></td>
+      <td><img src="res/dog-sepia.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Red Component</b></td>
+      <td><img src="res/dog-red-component.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Intensity Component</b></td>
+      <td><img src="res/dog-intensity.jpg" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Compressed (50%)</b></td>
+      <td><img src="res/dog-compressed.png" width="250"/></td>
+    </tr>
+    <tr>
+      <td><b>Split Preview (50% Sepia)</b></td>
+      <td><img src="res/dog-spilt.png" width="250"/></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 ### **Getting Started:**
 
 * Java 8 or higher
@@ -29,7 +99,7 @@ more. All operations are coded from scratch!
 1. Clone the repository from GitHub:
 
 ```
-   git clone https://github.com/sumitkanu/PixelCraft-Image-Editing-and-Enhancement.git
+   git clone https://github.com/OmMane1/PixelCraft-Image-Editing-and-Enhancement.git
 ```
 
 2. Double click on the JAR file named -> "PixelCraft - Image Editing and Enhancement.jar"
